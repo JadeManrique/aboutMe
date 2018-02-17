@@ -1,43 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed');
 
 #article {
-	height: 1000px;
-	width: 69%;
-	background-color: grey;
+	height: 330px;
+	width: 250px;
+	background-color: #FF6D3A;
 	border-radius: 15px;
+	position: absolute;
+	top: 55px;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 12px;
+}
+
+#nav {
+	width: 100%;
+}
+
+div > img {
+	border-radius: 100px;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+body {
+	background-color: #E0FFE7;
+}
+
+div > .nav {
+	background-color: #90FFE7;
+	opacity: 0.8;
+}
+
+div > p {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .nav {
 	position: fixed;
+	list-style: none;
+	text-align: center;
 	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 9999;
 	display: block;
 	width: 100%;
-	min-width: 1024pc;
 	height: 48px;
-	background-color: grey;
 }
 
 .nav ul li {
 	display: inline;
+	list-style-type: none;
 }
 
 .nav a {
 	text-decoration: none;
-	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	padding: 25px;
+	color: #00B28C;
+	display: block;
+	float: left;
+	text-align: center;
+	width: 20%;
 }
 
 .nav a:hover {
-	color: #00B28C;
+	color: #FF6D3A;
 }
 
-.nav a:visited {
-	color: #00B28C;
+.nav a:active {
+	color: white;
 }
+
+a.selected {
+	color: #FF6D3A;
+}
+
 
 .photos {
 	margin: 20px 0;
@@ -53,44 +94,15 @@
 	background-size: cover;
 }
 
-/* For non-retina based devices that have a smaller screen */
-@media only screen and (min-width: 320px) {
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 319px) (max-width : 1823px){
 
 }
 
-/* Retina enabled devices with smaller screen */
-@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),
-only screen and ( min-resolution: 192dpi) and (min-width: 320px),
-only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
-
-}
-
-/*Non- retina based devices with medium screen size */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Retina devices with medium screen size */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 768px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 768px),
-only screen and ( min-resolution: 192dpi) and (min-width: 768px),
-only screen and ( min-resolution: 2dppx) and (min-width: 768px) {
-
-}
-
-/* Non-retina devices with large screen sizes */
-@media only screen and (min-width: 1200px) {
-
-}
-
-/* Retina devices with large screen sizes */
-@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 1200px),
-only screen and ( min-resolution: 192dpi) and (min-width: 1200px),
-only screen and ( min-resolution: 2dppx) and (min-width: 1200px) {
-
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
 }
