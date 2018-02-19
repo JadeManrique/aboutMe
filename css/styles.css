@@ -6,30 +6,58 @@
 	position: absolute;
 }
 
-.box {
+/* About.html elements */
+.prof {
 	height: 330px;
 	width: 250px;
 	top: 55px;
 }
 
+.aba {
+	height: 200px;
+	width: 65%;
+	top: 55px;
+	right: 7px;
+	left: 270px;
+}
+
+.abb {
+	height: 200px;
+	width: 95%;
+	top: 400px;
+	right: 7px;
+	left: 7px;
+}
+
+/* Art photo gallery */
 .pca {
 	height: 250px;
-	width: 400px;
+	width: 49%;
 	top: 55px;
+	position: fixed;
 }
 
 .pcb {
 	height: 250px;
-	width: 400px;
-	top: 45%;
-	right: 10px;
+	width: 49%;
+	top: 55px;
+	right: 7px;
+	position: fixed;
 }
 
 .pcc {
 	height: 250px;
-	width: 400px;
-	top: 83%;
+	width: 49%;
+	top: 320px;
 	left: 10px;
+}
+
+.pcd {
+	height: 250px;
+	width: 49%;
+	top: 320px;
+	right: 7px;
+	position: fixed;
 }
 
 p {
@@ -109,18 +137,54 @@ a.selected {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 760px) {
-	body {
-		background-size: red;
+@media only screen and (max-width : 830px) {
+	.pca {
+		height: 250px;
+		width: 400px;
+		top: 55px;
+	}
+
+	.pcb {
+		height: 250px;
+		width: 400px;
+		top: 310px;
+		right: 7px;
+	}
+
+	.pcc {
+		height: 250px;
+		width: 400px;
+		top: 565px;
+		left: 10px;
+	}
+
+	.pcd {
+		height: 250px;
+		width: 400px;
+		top: 820px;
+		right: 7px;
+	}
+
+	.aba {
+		height: 200px;
+		width: 97%;
+		top: 400px;
+		left: 7px;
+	}
+
+	.abb {
+		height: 200px;
+		width: 97%;
+		top: 617px;
+		left: 7px;
 	}
 }
 
 /* Desktops and laptops ----------- */
-/* @media only screen  and (min-width : 321px) (max-width : 1823px){
-
-} */
+@media only screen  and (min-width : 800px) (max-width : 1800px){
+}
 
 /* Large screens ----------- */
-/* @media only screen  and (min-width : 1824px) {
+@media only screen  and (min-width : 1824px) {
 
-} */
+}
