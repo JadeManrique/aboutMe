@@ -179,13 +179,17 @@ a.selected {
 }
 
 .mysterybox {
-	text-align: center;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 150px;
-	margin-bottom: 150px;
-	background-color: red;
-	border-color: red;
+	position: fixed;
+	left: 300px;
+	top: 50px;
+	border-radius: 15px;
+	width: 150px;
+	height: 50px;
+	background-color: blue;
+	border-color: green;
+	border-style: groove;
+	border-width: thick;
+
 }
 
 
