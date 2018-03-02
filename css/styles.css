@@ -67,6 +67,8 @@
 	left: 7px;
 	background-color: #FF6D3A;
 	border-radius: 15px;
+	border-width: medium;
+	border-color: #FD21FF;
 	position: absolute;
 }
 
