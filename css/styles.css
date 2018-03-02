@@ -178,6 +178,17 @@ a.selected {
 	color: #FF6D3A;
 }
 
+.mysterybox {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	background-color: red;
+	border-color: red;
+}
+
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 830px) {
 	.pca {
@@ -221,6 +232,10 @@ a.selected {
 		left: 7px;
 	}
 }
+
+	.mysterybox {
+
+	}
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 800px) (max-width : 1800px){
