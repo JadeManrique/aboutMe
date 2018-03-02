@@ -181,12 +181,12 @@ a.selected {
 .mysterybox {
 	position: fixed;
 	left: 300px;
-	top: 50px;
+	top: 350px;
 	border-radius: 15px;
 	width: 150px;
 	height: 50px;
-	background-color: blue;
-	border-color: green;
+	background-color: #FD21FF;
+	border-color: #03FF00;
 	border-style: groove;
 	border-width: thick;
 
