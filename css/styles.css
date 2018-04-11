@@ -1,25 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|East+Sea+Dokdo|Gugi|Permanent+Marker|Righteous|Shrikhand|Source+Sans+Pro');
 
+/* raw global styles */
+
 h1 {
-	margin: 15px;
+	margin: 30px;
 	text-align: center;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 3em;
 }
 
 h2 {
-	margin: 15px;
+	margin: 30px;
 	text-align: center;
 	font-family: 'East Sea Dokdo', sans-serif;
 	font-size: 2em;
 }
 
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+}
+
+/* article */
+
+.article {
+	margin: 50px;
+	line-height: 25px;
+}
+
+/* global classes */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.size {
+	width: 900px;
+}
+
+.big {
+	font-size: 2em;
+}
+
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 800px) (max-width : 1800px){
+@media screen and (max-width: 920px) {
+
+  body {
+		background-color: red;
+	}
+
+	.size {
+		width: 90%;
+	}
 
 }
 
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
+@media screen and (max-width: 450px) {
+
+	body {
+		background-color: black;
+	}
+
+	.size {
+		width: 100%;
+	}
+
+
 
 }
