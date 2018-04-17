@@ -60,7 +60,13 @@ a.disable {
   cursor: default;
 }
 
-.delarte {
+.who {
+	top: 450px;
+	left: 470px;
+	text-align: center;
+}
+
+.what {
 	top: 710px;
 	left: 535px;
 }
