@@ -24,7 +24,7 @@ p {
 /* article */
 
 .article {
-	margin: 50px;
+	margin: 150px;
 	line-height: 25px;
 }
 
@@ -43,6 +43,10 @@ p {
 	font-size: 2em;
 }
 
+.rotate {
+	transform:rotate(90deg);
+}
+
 a img {
 	display:none;
 }
@@ -50,8 +54,15 @@ a img {
 a:hover img {
 	display: block;
 	position: absolute;
-	top: 500px;
-	left: 160px;
+}
+
+a.disable {
+  cursor: default;
+}
+
+.delarte {
+	top: 710px;
+	left: 535px;
 }
 
 /* Desktops and laptops ----------- */
