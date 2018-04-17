@@ -43,6 +43,17 @@ p {
 	font-size: 2em;
 }
 
+a img {
+	display:none;
+}
+
+a:hover img {
+	display: block;
+	position: absolute;
+	top: 500px;
+	left: 160px;
+}
+
 /* Desktops and laptops ----------- */
 @media screen and (max-width: 920px) {
 
